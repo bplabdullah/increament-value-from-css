@@ -1,0 +1,13 @@
+div {
+  counter-reset: tidbit-counter;
+}
+td.td_or_cell.inner-available.wpt_1.wpt_temp_1038.wpt_for_product_desc.type_default.type_name_Default\/No-Type-::before {
+  counter-increment: tidbit-counter 5; /* 👈 */
+  content: counter(tidbit-counter) "";
+  font-size:16px;
+}
+
+
+td.td_or_cell.inner-available.wpt_1.wpt_temp_1038.wpt_for_product_desc.type_default.type_name_Default\/No-Type- {
+  font-size:0px;
+}
